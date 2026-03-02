@@ -1,7 +1,12 @@
 #include <iostream>
 using namespace std;
 
-class A {
+// Sesion_01_Estudiantes_Ejercicio_2.cpp
+
+//Sesion_01_Estudiantes.md
+//Ejercicio 02: Jerarquia de 3 niveles
+
+class Animal {
     public:
     void metodo() {
         cout<<"Esta es la clase base"<<endl;
@@ -12,7 +17,8 @@ class B1 {
 };
 class B2 {
 
-}
+};
+
 int main() {
     B1 b1;
     B2 b2;

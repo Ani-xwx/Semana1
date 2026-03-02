@@ -33,6 +33,8 @@ class Vehiculo {
 
 		virtual ~Vehiculo() {}
 };
+//Es herencia publica la relacion que poseen.
+//Porque un objeto de clase base puede ser remplazado por alguna derivada sin hacer ningun error y porque el perro hereda los miembros y metodos de animal.
 
 class Automovil: public Vehiculo
 {

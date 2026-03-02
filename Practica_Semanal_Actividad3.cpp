@@ -13,7 +13,7 @@ private:
     vector<Libro*> libros;
 
 public:
-    Autor(string _nombre) : nombre(_nombre) {};
+    Autor(string nom) : nombre(nom) {};
     void agregarLibro(Libro* libro) {
         libros.push_back(libro);
     };
@@ -32,7 +32,7 @@ private:
     Autor* autor;
 
 public:
-    Libro(string _titulo, Autor* _autor) : titulo(_titulo), autor(_autor) {
+    Libro(string title, Autor* aut) : titulo(title), autor(aut) {
         if (autor != nullptr) {
             autor->agregarLibro(this);
         }
